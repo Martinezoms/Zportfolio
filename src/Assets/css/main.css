@@ -1,0 +1,9 @@
+body {
+  background-color: #232946;
+}
+html {
+  scroll-behavior: smooth;
+}
+.name {
+  width: 20%;
+}

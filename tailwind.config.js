@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         bluey: '#232946',
-        whitey: '#fffffe'
+        whitey: '#fffffe',
+        bgBluey: '#374170'
       }
     }
   },
