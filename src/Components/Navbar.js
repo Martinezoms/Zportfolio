@@ -4,7 +4,7 @@ import '../Assets/css/main.css';
 
 function Navbar() {
   return (
-    <div className=" bg-bgBluey mt-10 mr-10 ml-10 text-whitey rounded-full py-3 px-6 flex items-center justify-between">
+    <div className=" bg-bgBluey mt-10 mr-10 ml-10 text-whitey rounded-full py-3 px-6 flex items-center content-center justify-between nav">
       <div>
         <p>Martins</p>
         <p>Enyinnaya</p>
@@ -12,17 +12,17 @@ function Navbar() {
 
       <div className="space-x-10 flex justify-end">
         <Link to="/about">
-          <span>ABOUT</span>
+          <div className="p-3">ABOUT</div>
         </Link>
-        <span>
-          <a>RESUME</a>
-        </span>
+        <div className="p-3">
+          <p>RESUME</p>
+        </div>
         <Link to="/projects">
-          <span>PROJECTS</span>
+          <div className="p-3">PROJECTS</div>
         </Link>
-        <span>
-          <a>DOWNLOAD CV</a>
-        </span>
+        <div className="bg-pinky text-bluey p-3 rounded-full">
+          <p>DOWNLOAD CV &darr;</p>
+        </div>
       </div>
     </div>
   );

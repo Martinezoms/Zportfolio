@@ -1,9 +1,24 @@
 body {
-  background-color: #232946;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to left, #232946 50%, #eebbc3 50%);
+  z-index: 1;
 }
 html {
   scroll-behavior: smooth;
 }
-.name {
-  width: 20%;
+
+.main {
+  background-image: url('../img/portfolioBg.jpg');
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.5;
+}
+.nav {
+  position: relative;
+  z-index: 3;
 }
