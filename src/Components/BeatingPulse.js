@@ -5,8 +5,8 @@ import { rgba } from 'polished';
 function BeatingPulse() {
   const Wrapper = styled.div`
     position: realtive;
-    width: 100px;
-    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
   `;
   const duration = '2.27s';
 
@@ -14,8 +14,8 @@ function BeatingPulse() {
     position: fixed;
     top: 40%;
     left: 45%;
-    width: 10%;
-    height: 20%;
+    min-width: 10%;
+    min-height: 20%;
     border-radius: 50%;
   `;
   const pulse = (scale) => keyframes`
@@ -60,7 +60,7 @@ function BeatingPulse() {
   return (
     <div>
       <Wrapper>
-        <Icon>
+        <Icon className="font-bold">
           <p>Martins</p>
           <p>Enyinnaya</p>
         </Icon>
