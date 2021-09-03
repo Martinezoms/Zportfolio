@@ -29,7 +29,7 @@ html {
   z-index: 3;
 }
 .intro {
-  width: 45%;
+  width: 40%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -45,4 +45,35 @@ html {
   .intro {
     top: 40%;
   }
+}
+@media screen and (max-width: 1033px) {
+  .side-bar {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  .intro {
+    left: 0%;
+    top: 30%;
+    width: 100%;
+    padding-left: 50px;
+  }
+}
+
+.contact-me:hover {
+  opacity: 0.8;
+}
+.download:hover {
+  opacity: 0.8;
+  transition: all ease-in-out;
+}
+.nav-hover:hover {
+  color: #b8c1ec;
+  transition: all ease-in-out;
+}
+
+.side-menu:hover {
+  fill: #eebbc3;
+  transition: all 2s ease-out;
 }

@@ -1,9 +1,9 @@
-import React from 'react';
 import '../Assets/css/main.css';
-import NavBar from '../Components/Navbar';
+import NavBar from '../Components/NavBar';
 import Background from '../Components/Background';
 import BeatingPulse from '../Components/BeatingPulse';
 import Intro from '../Components/Intro';
+import SideBar from '../Components/SideBar';
 
 function Main() {
   return (
@@ -12,6 +12,7 @@ function Main() {
       <Background />
       <BeatingPulse />
       <Intro />
+      <SideBar />
     </div>
   );
 }

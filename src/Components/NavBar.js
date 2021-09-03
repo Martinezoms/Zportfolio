@@ -12,15 +12,15 @@ function NavBar() {
 
       <div className="space-x-10 flex justify-end">
         <Link to="/about">
-          <div className="p-3">ABOUT</div>
+          <div className="p-3 nav-hover">ABOUT</div>
         </Link>
-        <div className="p-3">
+        <div className="p-3 cursor-pointer nav-hover">
           <p>RESUME</p>
         </div>
         <Link to="/projects">
-          <div className="p-3">PROJECTS</div>
+          <div className="p-3 nav-hover">PROJECTS</div>
         </Link>
-        <div className="bg-pinky text-bluey p-3 rounded-full">
+        <div className="bg-pinky text-bluey p-3 rounded-full cursor-pointer download">
           <p>DOWNLOAD CV &darr;</p>
         </div>
       </div>

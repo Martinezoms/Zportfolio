@@ -8,7 +8,8 @@ module.exports = {
         whitey: '#fffffe',
         bgBluey: '#374170',
         pinky: '#eebbc3',
-        greyish: '#b8c1ec'
+        greyish: '#b8c1ec',
+        bGreyish: '#b8c1eca1'
       }
     }
   },

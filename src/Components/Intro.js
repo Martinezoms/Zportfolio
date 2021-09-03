@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRightCircle } from 'react-feather';
 import '../Assets/css/main.css';
 
@@ -13,27 +12,27 @@ function Intro() {
       </p>
       <ul className="text-greyish">
         <li className="flex pb-2 ">
-          <ArrowRightCircle />
+          <ArrowRightCircle className="mr-2" />
           Creative
         </li>
         <li className="flex pb-2 ">
-          <ArrowRightCircle />
+          <ArrowRightCircle className="mr-2" />
           Innovative
         </li>
         <li className="flex pb-2 ">
-          <ArrowRightCircle />
+          <ArrowRightCircle className="mr-2" />
           Team player
         </li>
         <li className="flex pb-2 ">
-          <ArrowRightCircle />
+          <ArrowRightCircle className="mr-2" />
           Adaptive
         </li>
         <li className="flex  ">
-          <ArrowRightCircle />
+          <ArrowRightCircle className="mr-2" />
           Fast learner
         </li>
       </ul>
-      <div className="mt-10 p-4 bg-pinky text-bluey w-40 rounded-full">
+      <div className="mt-10 p-4 bg-pinky text-bluey w-40 rounded-full cursor-pointer contact-me">
         <p>Contact me &rarr;</p>
       </div>
     </div>
