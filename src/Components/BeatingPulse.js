@@ -1,19 +1,19 @@
 import React from 'react';
 import styled, { keyframes, css } from 'styled-components';
 import { rgba } from 'polished';
+import '../Assets/css/main.css';
 
 function BeatingPulse() {
   const Wrapper = styled.div`
-    position: realtive;
     min-width: 100px;
     min-height: 100px;
   `;
-  const duration = '2.27s';
+  const duration = '2s';
 
   const sharedStyles = css`
     position: fixed;
-    top: 40%;
-    left: 45%;
+    top: 20%;
+    left: 70%;
     min-width: 10%;
     min-height: 20%;
     border-radius: 50%;
@@ -41,7 +41,7 @@ function BeatingPulse() {
   `;
   const iconBeat = keyframes`
     0%{transform: scale(1)}
-    10%{transform: scale(1.15)}
+    10%{transform: scale(1.02)}
     30%{transform: scale(1)}
   `;
   const Icon = styled.div`
@@ -51,21 +51,22 @@ function BeatingPulse() {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2px;
     font-size: 1.5rem;
     color: ${rgba('white', 0.85)};
     background: #232946;
-    border: 5px solid ${rgba('#232946', 0.65)};
+
     animation: ${iconBeat} ${duration} infinite;
   `;
   return (
-    <div>
+    <div className="beating">
       <Wrapper>
         <Icon className="font-bold">
           <p>Martins</p>
           <p>Enyinnaya</p>
         </Icon>
-        <Pulse scale={3} />
-        <Pulse scale={2} />
+        <Pulse scale={1.5} />
+        <Pulse scale={1.2} />
         <Pulse scale={1} />
       </Wrapper>
     </div>

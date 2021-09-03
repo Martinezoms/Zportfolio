@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Assets/css/main.css';
 
-function Navbar() {
+function NavBar() {
   return (
-    <div className=" bg-bgBluey mt-10 mr-10 ml-10 text-whitey rounded-full py-3 px-6 flex items-center content-center justify-between nav">
+    <div className=" bg-bgBluey mt-10 mr-10 ml-10 text-whitey rounded-full py-3 px-6 flex flex-auto items-center  justify-between nav">
       <div>
         <p>Martins</p>
         <p>Enyinnaya</p>
@@ -28,4 +28,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;

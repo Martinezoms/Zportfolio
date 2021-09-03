@@ -7,7 +7,8 @@ module.exports = {
         bluey: '#232946',
         whitey: '#fffffe',
         bgBluey: '#374170',
-        pinky: '#eebbc3'
+        pinky: '#eebbc3',
+        greyish: '#b8c1ec'
       }
     }
   },
