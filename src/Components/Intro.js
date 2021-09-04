@@ -32,8 +32,8 @@ function Intro() {
           Fast learner
         </li>
       </ul>
-      <div className="mt-10 p-4 bg-pinky text-bluey w-40 rounded-full cursor-pointer contact-me">
-        <p>Contact me &rarr;</p>
+      <div className="mt-10 p-4 bg-pinky text-bluey w-40 rounded-full cursor-pointer contact-me flex content-center item-center justify-center">
+        <p className="rounded-full">Contact me &rarr;</p>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Menu } from 'react-feather';
 import '../Assets/css/main.css';
 
 function NavBar() {
@@ -9,8 +10,9 @@ function NavBar() {
         <p>Martins</p>
         <p>Enyinnaya</p>
       </div>
+      <Menu size="30" className="nav-menu" />
 
-      <div className="space-x-10 flex justify-end">
+      <div className="space-x-10 flex justify-end nav-prop">
         <Link to="/about">
           <div className="p-3 nav-hover">ABOUT</div>
         </Link>
@@ -21,7 +23,7 @@ function NavBar() {
           <div className="p-3 nav-hover">PROJECTS</div>
         </Link>
         <div className="bg-pinky text-bluey p-3 rounded-full cursor-pointer download">
-          <p>DOWNLOAD CV &darr;</p>
+          <p className="rounded-full">DOWNLOAD CV &darr;</p>
         </div>
       </div>
     </div>

@@ -37,6 +37,12 @@ html {
 .beating {
   display: block;
 }
+.nav-menu {
+  display: none;
+}
+.nav-menu:hover {
+  color: #b8c1ec;
+}
 
 @media screen and (max-width: 1389px) {
   .beating {
@@ -58,6 +64,12 @@ html {
     top: 30%;
     width: 100%;
     padding-left: 50px;
+  }
+  .nav-prop {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
   }
 }
 
