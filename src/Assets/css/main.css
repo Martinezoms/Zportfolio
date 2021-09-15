@@ -43,6 +43,18 @@ html {
 .nav-menu:hover {
   color: #b8c1ec;
 }
+.about {
+  width: 50%;
+  height: 100%;
+}
+
+.close-button:hover {
+  color: #b8c1ec;
+}
+
+.connect:hover {
+  opacity: 0.5;
+}
 
 @media screen and (max-width: 1389px) {
   .beating {
