@@ -1,6 +1,7 @@
 import React from 'react';
 import { XCircle } from 'react-feather';
 import { Link } from 'react-router-dom';
+import HorizontalBar from '../Components/HorizontalBar';
 
 function About() {
   return (
@@ -31,6 +32,7 @@ function About() {
           <span className="text-whitey cursor-pointer connect">Let's connect</span>
         </div>
       </div>
+      <HorizontalBar />
     </div>
   );
 }
