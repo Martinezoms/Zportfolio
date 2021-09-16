@@ -1,12 +1,12 @@
 import React from 'react';
-import { XCircle } from 'react-feather';
-import { Link } from 'react-router-dom';
-import HorizontalBar from '../Components/HorizontalBar';
+// import { XCircle } from 'react-feather';
+// import { Link } from 'react-router-dom';
+import ModalContact from '../Components/ModalContact';
 
 function About() {
   return (
-    <div>
-      <Link to="/">
+    <div className="about-bg">
+      {/* <Link to="/">
         <XCircle size="30" className="absolute top-0 right-0 mx-4 my-7 text-whitey cursor-pointer close-button" />
       </Link>
       <div className="py-3 px-10 ml-12 about flex flex-col mt-80 space-y-5">
@@ -31,8 +31,8 @@ function About() {
         <div>
           <span className="text-whitey cursor-pointer connect">Let's connect</span>
         </div>
-      </div>
-      <HorizontalBar />
+      </div> */}
+      <ModalContact />
     </div>
   );
 }

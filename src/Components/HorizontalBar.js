@@ -3,7 +3,7 @@ import { GitHub, Linkedin, Mail, Twitter } from 'react-feather';
 
 function HorizontalBar() {
   return (
-    <div className="flex flex-row w-20 p-3  space-x-20  justify-center items-center border-solid border-l border-bGreyish">
+    <div className="flex flex-row  space-x-20  justify-center  horizontal-bar">
       <span>
         <a href="https://github.com/Martinezoms" title="Github">
           <GitHub size="50" color="#eebbc3" className="side-menu" />

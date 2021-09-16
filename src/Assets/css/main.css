@@ -55,6 +55,39 @@ html {
 .connect:hover {
   opacity: 0.5;
 }
+.horizontal-bar {
+  position: absolute;
+  top: 45%;
+  right: 40%;
+  opacity: 0.8;
+  width: 20%;
+}
+.about-bg {
+  height: 100%;
+  width: 100%;
+}
+.modal {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+}
+
+.modal .back-drop {
+  position: absolute;
+  background: rgba(225, 225, 225, 0.35);
+  width: 100vw;
+  height: 100vh;
+}
 
 @media screen and (max-width: 1389px) {
   .beating {
@@ -99,5 +132,5 @@ html {
 
 .side-menu:hover {
   fill: #eebbc3;
-  transition: all 2s ease-out;
+  transition: all 0.5s ease-out;
 }
