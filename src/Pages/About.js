@@ -24,7 +24,7 @@ function About() {
             <XCircle size="30" className="absolute top-0 right-0 mx-4 my-7 text-whitey cursor-pointer close-button" />
           </Link>
           <div className="py-3 px-10 ml-12 about flex flex-col pt-80 space-y-5">
-            <h2 className="text-whitey text-6xl font-bold ">About Me</h2>
+            <h2 className="text-whitey text-6xl font-bold">About Me</h2>
             <div className="text-greyish flex flex-col space-y-5">
               <p>
                 I am a software Engineer, passionate and determined to create simple,fuctional and interactive UI

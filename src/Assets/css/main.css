@@ -141,6 +141,18 @@ html {
     margin: -1rem;
   }
 }
+@media screen and (max-width: 488px) {
+  .about {
+    padding-left: 0;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .about {
+    margin-left: 5px;
+    width: 95%;
+  }
+}
 
 .contact-me:hover {
   opacity: 0.8;
