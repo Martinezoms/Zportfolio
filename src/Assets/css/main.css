@@ -42,6 +42,7 @@ html {
 }
 .nav-menu:hover {
   color: #b8c1ec;
+  transition: all ease-in-out 0.2s;
 }
 .about {
   width: 80%;
@@ -50,10 +51,12 @@ html {
 
 .close-button:hover {
   color: #b8c1ec;
+  transition: all ease-in-out 0.2s;
 }
 
 .connect:hover {
   opacity: 0.5;
+  transition: all ease-in-out 0.2s;
 }
 .horizontal-bar {
   position: absolute;
@@ -121,17 +124,18 @@ html {
 
 .contact-me:hover {
   opacity: 0.8;
+  transition: all ease-in-out 0.2s;
 }
 .download:hover {
   opacity: 0.8;
-  transition: all ease-in-out;
+  transition: all ease-in-out 0.2s;
 }
 .nav-hover:hover {
   color: #b8c1ec;
-  transition: all ease-in-out;
+  transition: all ease-in-out 0.2s;
 }
 
 .side-menu:hover {
   fill: #eebbc3;
-  transition: all 0.5s ease-out;
+  transition: ease-in-out 0.2s;
 }

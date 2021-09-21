@@ -5,7 +5,6 @@ import { GitHub, Linkedin, Mail, Twitter } from 'react-feather';
 function HorizontalBar({ setShowModal }) {
   const handleBackdrop = () => {
     setShowModal(false);
-    console.log('ahah! now i can disappear');
   };
   return (
     <div className="back-drop cursor-pointer" onClick={handleBackdrop}>

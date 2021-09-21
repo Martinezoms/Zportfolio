@@ -20,7 +20,7 @@ function SideBar() {
         </a>
       </span>
       <span>
-        <a href="https://mailto:martinezoms15@gmail.com">
+        <a href="https://mailto:martinezoms15@gmail.com" title="Email">
           <Mail size="30" color="#eebbc3" className="side-menu" />
         </a>
       </span>

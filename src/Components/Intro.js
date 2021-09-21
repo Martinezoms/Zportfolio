@@ -33,7 +33,15 @@ function Intro() {
         </li>
       </ul>
       <div className="mt-10 p-4 bg-pinky text-bluey w-40 rounded-full cursor-pointer contact-me flex content-center item-center justify-center">
-        <p className="rounded-full">Contact me &rarr;</p>
+        <a
+          className="rounded-full"
+          href="https://mailto:martinezoms15@gmail.com"
+          title="contact"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Contact me &rarr;
+        </a>
       </div>
     </div>
   );

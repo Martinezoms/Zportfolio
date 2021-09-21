@@ -17,7 +17,13 @@ function NavBar() {
           <div className="p-3 nav-hover">ABOUT</div>
         </Link>
         <div className="p-3 cursor-pointer nav-hover">
-          <p>RESUME</p>
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/14eo1bOESu3mwdCwech6vJXdilfJWjHc_3JnxnXaclFw/edit#"
+            rel="noreferrer"
+          >
+            RESUME
+          </a>
         </div>
         <Link to="/projects">
           <div className="p-3 nav-hover">PROJECTS</div>

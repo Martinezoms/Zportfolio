@@ -7,7 +7,6 @@ function About() {
   const [showModal, setShowModal] = useState(false);
   const handleModal = () => {
     setShowModal(true);
-    console.log('hey, you clicked me');
   };
   return (
     <div>
