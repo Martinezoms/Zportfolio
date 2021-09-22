@@ -1,23 +1,20 @@
-import React, { useState } from 'react';
-import Contact from './Contact';
+import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { Menu } from 'react-feather';
 import '../Assets/css/main.css';
 
 function NavBar() {
-  const [showcontact, setShowContact] = useState(false);
-  const handleShowContact = () => {
-    setShowContact(true);
-  };
   return (
     <div>
-      {showcontact && <Contact setShowContact={setShowContact} />}
       <div className=" bg-bgBluey mt-10 mr-10 ml-10 text-whitey rounded-full py-3 px-6 flex flex-auto items-center  justify-between nav">
         <div>
           <p>Martins</p>
           <p>Enyinnaya</p>
         </div>
-        <Menu size="30" className="nav-menu cursor-pointer" onClick={handleShowContact} />
+        <Link to="/menu">
+          <Menu size="30" className="nav-menu cursor-pointer" />
+        </Link>
 
         <div className="space-x-10 flex justify-end nav-prop">
           <Link to="/about">

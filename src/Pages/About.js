@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { XCircle } from 'react-feather';
+import { XCircle, Menu } from 'react-feather';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import ModalContact from '../Components/ModalContact';
 
 function About() {
   const [showModal, setShowModal] = useState(false);
+
   const handleModal = () => {
     setShowModal(true);
   };
@@ -21,7 +22,10 @@ function About() {
         {showModal && <ModalContact setShowModal={setShowModal} />}
         <div className="about-bg">
           <Link to="/">
-            <XCircle size="30" className="absolute top-0 right-0 mx-4 my-7 text-whitey cursor-pointer close-button" />
+            <XCircle size="30" className="fixed top-0 right-0 mx-4 my-7 text-whitey cursor-pointer close-button" />
+          </Link>
+          <Link to="/menu">
+            <Menu size="30" className="nav-menu cursor-pointer fixed top-0 left-0 mx-4 my-7 text-whitey" />
           </Link>
           <div className="py-3 px-10 ml-12 about flex flex-col pt-80 space-y-5">
             <h2 className="text-whitey text-6xl font-bold">About Me</h2>

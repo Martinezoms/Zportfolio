@@ -1,5 +1,5 @@
 import React from 'react';
-import { XCircle } from 'react-feather';
+import { XCircle, Menu } from 'react-feather';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import projects from '../Utils/projects';
@@ -34,6 +34,9 @@ function Projects() {
       >
         <Link to="/">
           <XCircle size="30" className="absolute top-0 right-0 mx-4 my-7 text-whitey cursor-pointer close-button" />
+        </Link>
+        <Link to="/menu">
+          <Menu size="30" className="nav-menu cursor-pointer fixed top-0 left-0 mx-4 my-7 text-whitey" />
         </Link>
         <motion.div
           variants={container}

@@ -3,10 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { XCircle, GitHub, Mail, Linkedin, Twitter } from 'react-feather';
 
-function Contact({ setShowContact }) {
-  const handleCloseContact = () => {
-    setShowContact(false);
-  };
+function MobileMenu() {
   return (
     <div>
       <AnimatePresence>
@@ -17,11 +14,9 @@ function Contact({ setShowContact }) {
           transition={{ duration: 0.2 }}
           className="side-drawer text-whitey flex flex-col items-center"
         >
-          <XCircle
-            size="30"
-            className="fixed top-0 right-0 mx-4 my-7  text-whitey cursor-pointer close-button"
-            onClick={handleCloseContact}
-          />
+          <Link to="/">
+            <XCircle size="30" className="fixed top-0 right-0 mx-4 my-7  text-whitey cursor-pointer close-button" />
+          </Link>
           <ul className="text-center space-y-10 flex flex-col ">
             <li>
               <Link to="/about">
@@ -68,4 +63,4 @@ function Contact({ setShowContact }) {
   );
 }
 
-export default Contact;
+export default MobileMenu;
