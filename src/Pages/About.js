@@ -32,9 +32,9 @@ function About() {
             <div className="text-greyish flex flex-col space-y-5">
               <p>
                 I am a software Engineer, passionate and determined to create simple,fuctional and interactive UI
-                designs. I am very much focused in completing tasks assigned to me on or before time,mostly before time.
-                like I said earlier on the main page of my portfolio, i am a team player, innovative, adaptive, blah
-                blah blah. I know, I sound too serious. Well, that's because I am being formal!.
+                designs. I am very much focused in completing tasks assigned to me on or before time, mostly before
+                time. Like I said earlier on the main page of my portfolio, I am a team player, innovative, adaptive,
+                blah blah blah. I know, I sound too serious. Well, that's because I am being formal!.
               </p>
               <p>
                 I like to do other fun stuff, yes, you read it right, coding is fun. I am a movie freak, I like to play
